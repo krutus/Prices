@@ -1,4 +1,4 @@
-package com.example.prices.exception;
+package com.example.prices.exceptions;
 
 import org.slf4j.*;
 import org.springframework.http.HttpStatus;

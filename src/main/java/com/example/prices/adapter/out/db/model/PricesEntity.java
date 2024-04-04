@@ -1,4 +1,4 @@
-package com.example.prices.entity;
+package com.example.prices.adapter.out.db.model;
 
 import java.time.LocalDateTime;
 
@@ -13,7 +13,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "PRICES")
-public class Prices {
+public class PricesEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

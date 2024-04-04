@@ -1,10 +1,10 @@
-package com.example.prices.service;
+package com.example.prices.application;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.example.prices.dto.PricesResponse;
-import com.example.prices.entity.Prices;
+import com.example.prices.application.dto.PricesResponse;
+import com.example.prices.domain.model.Prices;
 
 public interface IPricesService {
 

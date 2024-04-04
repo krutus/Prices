@@ -1,4 +1,4 @@
-package com.example.prices.exception;
+package com.example.prices.exceptions;
 
 public enum MessageErrorCode {
 

@@ -1,4 +1,4 @@
-package com.example.prices.dto;
+package com.example.prices.application.dto;
 
 import java.time.LocalDateTime;
 
@@ -12,6 +12,7 @@ import lombok.Data;
 public class PricesResponse {
     private Long productId;
     private int brandId;
+    private int priceList;
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private double price;
