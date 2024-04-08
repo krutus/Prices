@@ -10,6 +10,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.example.prices.application.IPricesService;
 import com.example.prices.application.dto.PricesResponse;
@@ -17,6 +18,7 @@ import com.example.prices.domain.model.Prices;
 import com.example.prices.domain.ports.in.web.WebPort;
 import com.example.prices.exceptions.GlobalExceptionHandler;
 
+@RestController
 public class WebController implements WebPort{
 	@Autowired
 	private IPricesService priceService;
